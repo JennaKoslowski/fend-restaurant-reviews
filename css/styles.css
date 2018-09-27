@@ -139,7 +139,6 @@ nav h1 a {
 #restaurants-list {
   background-color: #f3f3f3;
   list-style: outside none none;
-  margin: 0;
   padding: 30px 15px 60px;
   text-align: center;
   display: flex;
@@ -153,7 +152,6 @@ nav h1 a {
   margin: 15px;
   min-height: 380px;
   min-width: 200px;
-  max-width: 20%;
   padding: 0 30px 25px;
   text-align: left;
 }
@@ -261,7 +259,7 @@ nav h1 a {
   padding-bottom: 1pt;
 }
 #reviews-list {
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 #reviews-list li {
@@ -281,3 +279,28 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+/* ====================== Media Queries ====================== */
+@media only screen and (max-width: 618px) {
+  #restaurants-list {
+      width: 95%;
+  }
+}
+@media only screen and (min-width: 619px) and (max-width: 1072px) {
+  #restaurants-list {
+    margin: auto;
+  }
+  #restaurants-list li {
+      width: 33%;
+      margin: 10px auto;
+  }
+}
+@media only screen and (min-width: 1073px) {
+  #restaurants-list {
+    margin: auto;
+  }
+  #restaurants-list li {
+      width: 20%;
+      margin: 10px auto;
+  }
+}
+/*see if you can get it to stop at three across if time*/
