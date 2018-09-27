@@ -68,7 +68,6 @@ nav h1 a {
   font-weight: 200;
   letter-spacing: 10px;
   text-transform: uppercase;
-
 }
 #breadcrumb {
     padding: 10px 40px 16px;
@@ -281,11 +280,17 @@ nav h1 a {
 }
 /* ====================== Media Queries ====================== */
 @media only screen and (max-width: 618px) {
+  nav h1 a {
+  font-size: 12pt;
+}
   #restaurants-list {
       width: 95%;
   }
 }
 @media only screen and (min-width: 619px) and (max-width: 1072px) {
+  nav h1 a {
+  font-size: 20pt;
+}
   #restaurants-list {
     margin: auto;
   }
@@ -295,6 +300,9 @@ nav h1 a {
   }
 }
 @media only screen and (min-width: 1073px) {
+   nav h1 a {
+  font-size: 36pt;
+}
   #restaurants-list {
     margin: auto;
   }
@@ -303,4 +311,7 @@ nav h1 a {
       margin: 10px auto;
   }
 }
-/*see if you can get it to stop at three across if time*/
+/*see if you can get it to stop at three across if
+..............................................................
+
+*/
