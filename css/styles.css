@@ -200,7 +200,7 @@ nav h1 a {
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 87%;
+  height: 100%;
   position: fixed;
   right: 0;
   top: 80px;
@@ -296,8 +296,13 @@ nav h1 a {
       width: 95%;
   }
 }
-.inside #maincontent {
-  flex-basis: 100%;
+.inside #map-container {
+  height: 50%;
+  width: 100%;
+}
+.inside #map {
+  height: 50%;
+  width: 100%;
 }
 @media only screen and (min-width: 619px) and (max-width: 1072px) {
   nav h1 a {
