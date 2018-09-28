@@ -193,7 +193,7 @@ nav h1 a {
   width: 100%;
   z-index: 1000;
 }
-.inside #maincontent { /*working here overlapping*/
+.inside #maincontent {
   display: flex;
 }
 .inside #map-container {
@@ -263,7 +263,7 @@ nav h1 a {
 }
 #reviews-list {
   margin: auto;
-  padding: 0;
+  padding: 0 10% 0 0;
 }
 #reviews-list li {
   background-color: #fff;
@@ -296,8 +296,12 @@ nav h1 a {
 }
 .inside #map-container, .inside #map {
   height: 100%;
-  width: 50%;
+  width: 40%;
   float: right;
+}
+#reviews-list {
+  margin: auto;
+  padding: 0 10% 0 0;
 }
 @media only screen and (min-width: 619px) and (max-width: 1072px) {
   nav h1 a {
@@ -305,10 +309,6 @@ nav h1 a {
 }
   #restaurants-list {
     margin: auto;
-  }
-  #restaurants-list li {
-      width: 33%;
-      margin: 10px auto;
   }
 }
 @media only screen and (min-width: 1073px) {
