@@ -305,22 +305,22 @@ nav h1 a {
 }
 @media only screen and (min-width: 619px) and (max-width: 1072px) {
   nav h1 a {
-  font-size: 20pt;
+    font-size: 20pt;
 }
   #restaurants-list {
     margin: auto;
   }
 }
 @media only screen and (min-width: 1073px) {
-   nav h1 a {
-  font-size: 36pt;
+  nav h1 a {
+    font-size: 36pt;
 }
   #restaurants-list {
     margin: auto;
   }
   #restaurants-list li {
-      width: 20%;
-      margin: 10px auto;
+    width: 20%;
+    margin: 10px auto;
   }
 }
 /*see if you can get it to stop at three across if
