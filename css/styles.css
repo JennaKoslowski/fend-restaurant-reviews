@@ -326,7 +326,13 @@ nav h1 a {
     width: 20%;
     margin: 10px auto;
   }
+  .inside #map-container, .inside #map {
+  height: 100%;
+  width: 50%;
+  float: right;
+  }
 }
+
 /*see if you can get it to stop at three across if
 ..............................................................
 
